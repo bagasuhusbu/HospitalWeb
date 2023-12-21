@@ -55,6 +55,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+
+
 header {
   background-image: linear-gradient(
       to right,
@@ -95,6 +97,20 @@ header {
 .link a {
   padding: 0.5rem;
   color: var(--primary-color-light);
+}
+
+.nav-links ul li::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
 }
 
 .link a:hover {
