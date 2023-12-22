@@ -11,8 +11,6 @@
   --max-width: 1200px;
 }
 
-
-
 * {
   padding: 0;
   margin: 0;
@@ -70,6 +68,28 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 1s, transform 1s;
+}
+
+.animate-on-scroll.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-on-scrolll {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 1s, transform 1s;
+}
+
+.animate-on-scroll.active {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 

@@ -44,21 +44,8 @@
   cursor: pointer;
 }
 
-.nav-links ul li::after{
-  content: '';
-  width: 0;
-  height: 2px;
-  background: #f44336;
-  display: block;
-  margin: auto;
-  transition: 0.5s;
-}
- .nav-links ul li:hover::after{
-  width: 100%;
-}
-
 img {
-  width: 100px;
+  width: 100%;
   display: flex;
 }
 
@@ -68,28 +55,6 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-}
-
-.animate-on-scroll {
-  opacity: 0;
-  transform: translateX(100%);
-  transition: opacity 1s, transform 1s;
-}
-
-.animate-on-scroll.active {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.animate-on-scrolll {
-  opacity: 0;
-  transform: translateX(-100%);
-  transition: opacity 1s, transform 1s;
-}
-
-.animate-on-scroll.active {
-  opacity: 1;
-  transform: translateX(0);
 }
 
 header {
@@ -229,6 +194,13 @@ header {
 .service__btn:hover {
   color: var(--white);
   background-color: var(--primary-color);
+}
+
+.service__grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .service__card {
