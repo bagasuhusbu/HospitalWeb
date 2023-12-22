@@ -15,3 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
     window.addEventListener("scroll", checkScroll);
     checkScroll(); // Check initially in case some elements are already in view on page load
   });
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var serviceGrid = document.querySelector(".service__grid");
+
+    // Tambahkan kelas "fade-in" setelah jendela dimuat
+    serviceGrid.classList.add("fade-in");
+  });
+  

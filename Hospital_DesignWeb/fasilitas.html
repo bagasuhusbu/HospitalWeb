@@ -12,6 +12,7 @@
 />
   <link rel="stylesheet" href="styles.css" />
   <title>Page Fasilitas</title>
+
 </head>
 <body>
   <header>
@@ -28,8 +29,8 @@
     <div class="section__container header__container">
       <div class="header__content">
         <h1>FASILITAS</h1>
-        <p>Welcome To We Hospital</p>
-        <button class="btn">See Services</button>
+        <p>Selamat Datang</p>
+        <button class="btn">Lihat fasilitas</button>
       </div>
     </div>
   </header>
@@ -37,83 +38,101 @@
     <section class="section__container service__container">
       <div class="service__header">
         <div class="service__header__content">
-          <h2 class="section__header">Our Special service</h2>
+          <h2 class="section__header">Special service</h2>
           <p>
-            Beyond simply providing medical care, our commitment lies in
-            delivering unparalleled service tailored to your unique needs.
+            Komitmen kami akan memberikan pelayanan dan Fasilitas Yang terbaik untuk anda.
           </p>
         </div>
-        <button class="service__btn">Ask A Service</button>
       </div>
       <div class="service__grid">
         <div class="service__card">
           <span><i class="ri-microscope-line"></i></span>
-          <h4>Laboratory Test</h4>
+          <h4>Test Laboratorium</h4>
           <p>
-            Accurate Diagnostics, Swift Results: Experience top-notch Laboratory
-            Testing at our facility.
+            Keakuratan Diagnosa merupakan tujun dan prioritas utama kita
           </p>
         </div>
         <div class="service__card">
           <span><i class="ri-mental-health-line"></i></span>
-          <h4>Health Check</h4>
+          <h4>Cek-up Medis</h4>
           <p>
-            Our thorough assessments and expert evaluations help you stay
-            proactive about your health.
+            Kami menyediakan layanan Cek-Up medis secara Gratis
           </p>
         </div>
         <div class="service__card">
           <span><i class="ri-hospital-line"></i></span>
-          <h4>General Dentistry</h4>
+          <h4>Dokter Terbaik</h4>
           <p>
-            Experience comprehensive oral care with Dentistry. Trust us to keep
-            your smile healthy and bright.
+            Kami memberikan layanan Dokter Muda dengan jam terbang yang tinggi.
           </p>
         </div>
       </div>
     </section>
 
-    <section class="section__container why__container">
-      <div class="why__image">
-        <img src="assets/choose-us.jpg" alt="why choose us" />
-      </div>
+    <section class="section__container why__container animate-on-scroll">
       <div class="why__content animate-on-scroll">
-        <h2 class="section__header">Why Choose Us</h2>
+        <h2 class="section__header">kenapa memilih kami</h2>
         <p>
-          With a steadfast commitment to your well-being, our team of highly
-          trained healthcare professionals ensures that you receive nothing
-          short of exceptional patient experiences.
+          Kami berkomitmen terhadap Kesembuhan anda. Kenyamanan dalam pelayanan kami merupakan  prioritas utama kami. keProfesionalitas kinerja kami akan kami berikan dengan tinggi.
         </p>
         <div class="why__grid animate-on-scroll">
           <span><i class="ri-hand-heart-line"></i></span>
           <div>
-            <h4>Intensive Care</h4>
+            <h4>Perawatan Intensif</h4>
             <p>
-              Our Intensive Care Unit is equipped with advanced technology and
-              staffed by team of professionals
+              Perawatan yang kami suguhkan dilengkapi dengan teknologi canggih dan dikelola dengan tim Profesional
             </p>
           </div>
           <span><i class="ri-truck-line"></i></span>
           <div>
-            <h4>Free Ambulance Car</h4>
+            <h4>Free Ambulance</h4>
             <p>
-              A compassionate initiative to prioritize your health and
-              well-being without any financial burden.
+              Kami menyediakan layanan Gratis ambulance tanpa dipungut biaya merupakan bentuk keseriusan layanan kita
             </p>
           </div>
           <span><i class="ri-hospital-line"></i></span>
           <div>
-            <h4>Medical and Surgical</h4>
+            <h4>Medis dan Bedah</h4>
             <p>
-              Our Medical and Surgical services offer advanced healthcare
-              solutions to address medical needs.
+              Kami memberikan pelayanan bedah dan anestesi dengan akurat dan dilakukan oleh tim yang profesional
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section__container doctors__container">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+      
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://www.halojabar.com/wp-content/uploads/2023/02/Zee-Jkt48.jpg" alt="Los Angeles" class="d-block mx-auto" style="width:50%">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.halojabar.com/wp-content/uploads/2023/02/Zee-Jkt48.jpg" alt="Chicago" class="d-block mx-auto" style="width:50%">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.halojabar.com/wp-content/uploads/2023/02/Zee-Jkt48.jpg" alt="New York" class="d-block mx-auto" style="width:50%">
+        </div>
+      </div>
+      
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    
+    <!-- <section class="section__container doctors__container">
       <div class="doctors__header">
         <div class="doctors__header__content">
           <h2 class="section__header">Our Special Doctors</h2>
@@ -168,7 +187,7 @@
           <p>Dermatologist</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <footer class="footer">
       <div class="section__container footer__container">
@@ -206,5 +225,6 @@
       </div>
     </footer>
     <script src="js1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

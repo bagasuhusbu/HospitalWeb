@@ -25,12 +25,17 @@
   padding: 5rem 1rem;
 }
 
+/* .judul{
+  font-size: 80 px;
+} */
+
 .section__header {
   margin-bottom: 0.5rem;
   font-size: 2rem;
   font-weight: 600;
   color: var(--text-dark);
 }
+
 
 .btn {
   padding: 0.75rem 2rem;
@@ -53,8 +58,7 @@
   margin: auto;
   transition: 0.5s;
 }
-
-.nav-links ul li:hover::after{
+ .nav-links ul li:hover::after{
   width: 100%;
 }
 
@@ -74,6 +78,17 @@ body {
 .animate-on-scroll {
   opacity: 0;
   transform: translateX(100%);
+  transition: opacity 1s, transform 1s;
+}
+
+.animate-on-scroll.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.animate-on-scrolll {
+  opacity: 0;
+  transform: translateX(-100%);
   transition: opacity 1s, transform 1s;
 }
 
