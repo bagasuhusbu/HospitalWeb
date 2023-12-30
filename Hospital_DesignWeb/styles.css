@@ -152,6 +152,10 @@ header {
   color: var(--white);
 }
 
+div.header__content a:hover{
+  color: black;
+}
+
 .header__container p {
   margin-bottom: 2rem;
   max-width: 600px;

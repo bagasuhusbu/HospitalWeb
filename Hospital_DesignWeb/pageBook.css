@@ -175,6 +175,10 @@ header {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 
+div.header__content a:hover{
+  color: black;
+}
+
 .header__form input {
   padding: 1rem;
   outline: none;
