@@ -119,6 +119,17 @@ header {
   padding: 0.5rem;
   color: var(--primary-color-light);
 }
+.btn {
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  white-space: nowrap;
+  color: var(--white);
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
 
 .nav-links ul li::after{
   content: '';
@@ -129,7 +140,9 @@ header {
   margin: auto;
   transition: 0.5s;
 }
-
+ .nav-links ul li:hover::after{
+  width: 100%;
+}
 .link a:hover {
   color: var(--white);
 }
