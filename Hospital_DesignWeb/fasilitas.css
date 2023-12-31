@@ -120,6 +120,16 @@ header {
   color: var(--primary-color-light);
 }
 
+.nav-links ul li::after{
+  content: '';
+  width: 0;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
 .link a:hover {
   color: var(--white);
 }
